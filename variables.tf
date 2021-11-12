@@ -13,3 +13,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "subnet" {
+  description = "VPC Subnet required for new resources"
+  default = "subnet-d0bae9a7"
+}
